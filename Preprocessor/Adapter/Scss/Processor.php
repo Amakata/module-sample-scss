@@ -49,6 +49,7 @@ class Processor implements ContentProcessorInterface
         $path = $asset->getPath();
         try {
             $compiler = new \scssc();
+            $compiler->setFormatter('scss_formatter’);
             $content = $this->assetSource->getContent($asset);
 
             if (trim($content) === '') {
