@@ -19,6 +19,11 @@ CSS file is generated from test SCSS file.
 
 This module is intended to be installed using composer.
 
+```
+$ composer config repositories.module-sample-scss git git@github.com:Amakata/module-sample-scss.git
+$ composer require magento/module-sample-scss dev-master
+```
+
 ## Tests
 
 Unit tests could be found in the [Test/Unit](Test/Unit) directory.
